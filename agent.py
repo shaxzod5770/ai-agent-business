@@ -7,5 +7,5 @@ response = client.responses.create(
 )
 
 return response.output_text
-if name == "main": message = input("Siz nima qilmoqchisiz? ") result = ai_agent(message)
+if __name__ == "__main__": message = input("Siz nima qilmoqchisiz? ") result = ai_agent(message)
 print("\nAgent:", result)
